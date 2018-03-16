@@ -4,7 +4,7 @@
   As we advance into the future, the growth and dominance of mega-cap technology stocks has emerged as an undeniable trend. With this growth,  these companies have taken an ever increasing share of the overall market capitalization of the US equity market. Over the past few years a popular acronym for these key players has emerged, 'FANG', with its constituents being Facebook, Amazon, Netflix, and Google. I have included Apple in this group as well since it is the currently the largest technology stock by market cap. I have chosen the S&P 500 as a proxy of the US equity market since it is one of the most highly pegged measurements of US equities. This project aims to survey the market cap of these names against the total market cap of the S&P 500 index in order to quantify their current dominance and forecast their potential future share of the total S&P market cap.
 
 ## The Data
-  The daily stock price and market index data was acquired through querying [Quandl](www.quandl.com). Their extensive API aggregates a variety of data sources that are related to financial markets and economics.  
+  The daily stock price and market index data was acquired through querying [Quandl](www.quandl.com). Their extensive API aggregates a variety of data sources that are related to financial markets and econometrics.  
 ### Exploring the data
   My first goal was to understand how correlated these stocks are with each other and the S&P. As displayed below, we can clearly see that the entire group is highly correlated with each other, the lowest correlation being **.80**
 
@@ -21,7 +21,7 @@
 
   ![beta](/images/beta.svg)
 
-  and this calculation can be done by regressing stock price changes against market index changes. Here is a summary table of the stock betas calculated using returns from 11-03-2017 to 2018-03-12.
+  and this calculation can be done by regressing stock price changes against market index changes. Here is a summary table of the stock betas calculated using returns from 11-03-2017 to 03-12-2018.
 
   ![fang betas](/images/fangbetas.png)
 
@@ -36,7 +36,7 @@
 
 ### Forecasting Market Capitalizations
 
-  The Facebook research team published a forecasting package for Python in 2017. The core of its functionality employs an additive regression model comprised of a piecewise linear or logistic growth curve trend and various seasonality components. I utilized their forecasting tool to gain insight on what the market caps of the FAANG stocks and S&P might look like 5 years into the future. Below is a display of the how the model forecasts into the future with uncertainty increasing over time:
+  The Facebook research team published a forecasting package for Python in 2017. The core of its functionality employs an additive regression model comprised of a piecewise linear or logistic growth curve trend and various seasonality components. I utilized their forecasting tool to gain insight on what the market caps of the FAANG stocks and S&P might look like 5 years into the future. Below is a display of the how the model forecasts into the future with uncertainty increasing over time.
 
   ![Facebook prophet model](/images/fbprophet.png)
 
@@ -47,9 +47,9 @@
 ### Conclusion
   After running these forecasts on each of the FAANG stocks and S&P I was able to pull out point estimates at the midpoint of each trend 5 years into the future. The total market capitalizations of the FAANG stocks were estimated to reach roughly $8 trillion and the S&P at over $46 trillion. This would indicate that the FAANG stocks could reach roughly %17 of the market cap of the S&P 500 by early 2023.  
 
-  ![forecasts](/images/forecast.png)
+  ![forecasts](/images/finalforecast.png)
 
 
-### Next Steps 
+### Next Steps
 
-  Obviously, these predictions are highly speculative and rely solely on the daily price data given over the past four years. During this timeframe the these stocks as well as the S&P 500 have all shown significant growth. This leads to a tremendous amount of bias in the models. The true cyclicality of markets can be observed over longer periods of time.   
+  Obviously, these predictions are highly speculative and rely solely on the daily price data given over the past four years. During this timeframe these stocks as well as the S&P 500 have all shown significant growth. This leads to a tremendous amount of bias in the models. The true cyclicality of markets can be observed over longer periods of time. Therefore, moving forward with this project one could make forecasts using additional data covering a longer timeframe in order to improve the value of the forecasts. To better address the major question under consideration, the role of mega cap tech stocks in market, we could use a more comprehensive view of such tech stocks as well as a broader measure of the market. Then, we may want to introduce other features into the models such as GDP in addition to testing other time series analysis techniques like an ARIMA model.       
