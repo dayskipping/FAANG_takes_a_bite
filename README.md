@@ -14,9 +14,9 @@
 #### Distribution of Returns
   Next, I set out to understand the distribution of the S&P 500. In order to do this I plotted a histogram of daily market returns from 03-13-2008 to 03-12-2018 against a normal and Laplace distribution. I utilized a Kolmogorov–Smirnov test of equality in order to see if the observed distribution was equal to the normal or Laplace distribution. As seen in the p-values of ~ 0.0 the returns distribution does not show evidence of being equal to either distributions.  
 
-  ![returns](/images/normal1.png)
+  ![returns](/images/normal.png)
 
-  ![returns](/images/laplace1.png)
+  ![returns](/images/laplace.png)
 
 #### Stock Betas
   In the financial arena, understanding the way a stock moves in relation to the market can be measured by its beta,
