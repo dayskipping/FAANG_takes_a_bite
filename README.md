@@ -12,7 +12,7 @@
 
   ![corr](/images/correlation.png)
 #### Distribution of Returns
-  Next, I set out to understand the distribution of the S&P 500. In order to do this I plotted a histogram of daily market returns from 03-13-2008 to 03-12-2018 against a normal and Laplace distribution. I utilized a Kolmogorov–Smirnov test of equality in order to see if the observed distribution was equal to the normal or Laplace distribution. As seen in the p-values of ~ 0.0 the returns distribution does not show evidence of being equal to either distributions.  
+  Next, I set out to understand the distribution of the S&P 500. In order to do this I plotted a histogram of daily market returns from 03-13-2008 to 03-12-2018 against a normal and Laplace distribution. I utilized a Kolmogorov–Smirnov test of equality in order to see if the observed distribution was equal to the normal or Laplace distribution. As seen in the p-values of ~ 0.0 we are unable to conclude that the returns distribution is equal to either the normal or the Laplace.   
 
   ![returns](/images/normal.png)
 
