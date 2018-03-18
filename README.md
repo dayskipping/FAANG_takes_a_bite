@@ -49,7 +49,7 @@
 
 
 ### Conclusion
-  After running these forecasts on each of the FAANG stocks and S&P I was able to pull out point estimates at the midpoint of each trend 5 years into the future. The total market capitalizations of the FAANG stocks were estimated to reach roughly $8 trillion and the S&P at over $46 trillion. This would indicate that the FAANG stocks could reach roughly %17 of the market cap of the S&P 500 by early 2023.  
+  After running these forecasts on each of the FAANG stocks and S&P I was able to pull out point estimates at the midpoint of each trend 5 years into the future. The total market capitalizations of the FAANG stocks were estimated to reach roughly $8 trillion and the S&P at over $46 trillion. This would indicate that the FAANG stocks could reach roughly **17%** of the market cap of the S&P 500 by early 2023.  
 
   ![forecasts](/images/finalforecast.png)
 
