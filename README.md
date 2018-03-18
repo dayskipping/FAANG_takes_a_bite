@@ -34,7 +34,7 @@
 
   ![market caps](/images/fangcaps.png)
 
-  As of 12-29-2017 the FAANG stocks have an aggregate market cap of $2772.363 billion and the S&P 500 at $23938.149 billion. This puts the FAANG stocks as a percentage of the total S&P at roughly **11.58%**
+  As of 12-29-2017 the FAANG stocks had an aggregate market cap of $2772.363 billion and the S&P 500 at $23938.149 billion. This puts the FAANG stocks as a percentage of the total S&P at roughly **11.58%**
 
   ![market caps v sp](/images/fangbar.png)
 
